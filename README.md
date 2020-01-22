@@ -10,3 +10,6 @@ The results obtained for the three different techniques for seed placement were,
 Future work includes more tests on bigger and more diverse databases, analyzing the effect of morphology operations on the results and the effect of the hyperparameter optimization techniques on the network. 
 
 Key-words: Automatic Segmentation, Radiotherapy Planning, Organs at Risk, Lungs, 3D, Computerized Tomography.
+
+
+For the 3D U-Net CNN model, the code of David G. Ellis (git id Ellisdg) was adapted (available at https://github.com/ellisdg/3DUnetCNN).
