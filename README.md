@@ -19,4 +19,5 @@ Key-words: Automatic Segmentation, Radiotherapy Planning, Organs at Risk, Lungs,
 
 For the 3D U-Net CNN model, the code of David G. Ellis (git id Ellisdg) was adapted (available at https://github.com/ellisdg/3DUnetCNN).
 
-![alt text][closed_results_with_axis.png]
+
+![Alt text](closed_results_with_axis.png?raw=true "Iterative Region Growing Results")
