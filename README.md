@@ -4,7 +4,7 @@
 In this project, "Segmentation of lungs on CT: tools to aid Radiotherapy planning", I studied two very different automatic approaches for the segmentation of the lungs: a "traditional" one, a Region Growing method, and a more recent one, the U-Net CNN model (a Deep Learning model), achieving results of 98% of DICE when compared to the true segmentation. The analysed images corresponded to CT scans (DICOM images) from children and adults. Both the algorithms were programmed in Python, using Keras and Tensorflow for the second model. The work resulted in a publication in the IbPRIA 2019: 9th Iberian Conference on Pattern Recognition and Image Analysis and published in the Springer Lecture Notes in Computer Science Series.
 
 
-Abstract:
+## Abstract:
 
 Radiotherapy planning plays a decisive role in cancer’s treatment management. Many side effects come from the exposure of normal tissue to radiation during therapy, all the way from small acute side effects such as tiredness, to long term sequelae, like another type of cancer. To minimize this exposure, it is necessary to contour the organs at risk. However, this task is typically performed manually on a slice-by-slice basis, being consequently very time-consuming and susceptible to high intra and inter-subject variance and human errors.
 
@@ -19,5 +19,5 @@ Key-words: Automatic Segmentation, Radiotherapy Planning, Organs at Risk, Lungs,
 
 For the 3D U-Net CNN model, the code of David G. Ellis (git id Ellisdg) was adapted (available at https://github.com/ellisdg/3DUnetCNN).
 
-
-![Alt text](closed_results_with_axis.png?raw=true "Iterative Region Growing Results")
+## Iterative Region Growing Results
+![Alt text](closed_results_with_axis.png?raw=true )
